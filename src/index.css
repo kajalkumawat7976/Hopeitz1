@@ -1,0 +1,56 @@
+/* src/BackgroundVideo.css */
+.background{
+  margin: 0%;
+  padding: 0%;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh; /* Full height */
+    overflow: hidden; /* Hide overflow */
+    background-size: contain;
+    background-size: cover;
+
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%; /* Ensure the video covers the container */
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%); /* Center the video */
+    z-index: -1; /* Place behind other content */
+  opacity: 0.9;
+   
+}
+/* bg exit */
+/* home */
+.rotate-image {
+ /* Set your desired width */
+  height: auto; /* Maintain aspect ratio */
+  transform-origin: bottom center; /* Set pivot point at the bottom center */
+   
+  animation: rotate-clockwise 8s linear infinite; /* Rotate for 10 seconds infinitely */
+}
+@keyframes rotate-clockwise {
+  from {
+      transform: rotateY(0deg); /* Start at 0 degrees */
+  }
+  to {
+      transform: rotateY(360deg); /* End at 360 degrees */
+  }
+}
+/* home exit */
+/* About */
+.about{
+  background-color: black;
+  opacity: 0.9;
+}
+.zodiac:hover{
+      color: chocolate !important;
+}
+/* Rates */
+
