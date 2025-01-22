@@ -26,6 +26,8 @@
   opacity: 0.9;
    
 }
+
+ /* body background  */
 /* bg exit */
 /* home */
 .rotate-image {
@@ -53,4 +55,127 @@
       color: chocolate !important;
 }
 /* Rates */
+.contact{
+  background-image: url('/public/Contact bg 2.avif');
 
+}
+
+/* make nav responsive */
+.nav-link:hover,
+.ho:hover,
+.nav-link:hover span  {
+  color: orange!important;
+  text-decoration: underline;
+}
+.navbar {
+  background-color:transparent;
+  color: white;
+  position: sticky; /* Makes the navbar sticky */
+  top: 0; /* Sticks to the top */
+  width: 100%;
+  z-index: 1000;}
+ /* body background  */
+ /* completed- */
+
+ /* styles.css */
+/* Background page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 0; /* Reset margin for smaller screens */
+}
+
+.Home {
+  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Maximum width for larger screens */
+  opacity: 0.4;
+  margin-top: 150px;
+  margin-left: 40px; /* Reduced margin for smaller screens */
+}
+
+.text {
+  color: white;
+  text-align: center; /* Center align text */
+  font-family: "Monospace";
+  margin-left: 20px;
+ 
+}
+
+.text-title {
+  font-size: 35px;
+  margin-top: -400px; /* Adjust as necessary */
+}
+
+.text-subtitle {
+  font-size: 40px;
+  margin-top: 20px; /* Adjust as necessary */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .text-title {
+      font-size: 20px;
+      margin-top: 380px; 
+      margin-left: -40px; 
+       /* Smaller font size for tablets */
+  }
+  
+  .text-subtitle {
+      font-size: 32px; /* Smaller font size for tablets */
+      margin-left: -100px; 
+  }
+
+  .Home {
+      margin-top: 70px;
+      margin-left: -30px; /* Adjust margins for smaller devices */
+  }
+  .container{
+    margin-top: 500px;
+    margin-left: 500px;
+  }
+  .video-container{
+    /* margin-top: 400px; */
+
+  }
+}
+
+@media (max-width: 480px) {
+  .text-title {
+      font-size: 20px;
+      margin-top: 100px; 
+      margin-left: 20px; /* Smaller font size for mobile */
+  }
+  .Home{
+    height:300px;
+    margin-left: -30px;
+    margin-top: 50px !important;
+    width: 330px;
+  }
+  .container{
+    margin-top: 800px;
+  }
+  .video-container{
+    height: 600px;
+    
+  }
+  
+  .text-subtitle {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 20px;  /* Smaller font size for mobile */
+  }
+
+  .Home {
+      margin-top: 5px; /* Further adjust margins for mobile */
+  }
+}
+
+
+/* Dreams Background */
+.dreams-bg{
+  background-image: url('/public/dream bg.webp');
+  background-repeat: no-repeat;
+}
