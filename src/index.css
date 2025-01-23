@@ -29,31 +29,13 @@
 
  /* body background  */
 /* bg exit */
-/* home */
-.rotate-image {
- /* Set your desired width */
-  height: auto; /* Maintain aspect ratio */
-  transform-origin: bottom center; /* Set pivot point at the bottom center */
-   
-  animation: rotate-clockwise 8s linear infinite; /* Rotate for 10 seconds infinitely */
-}
-@keyframes rotate-clockwise {
-  from {
-      transform: rotateY(0deg); /* Start at 0 degrees */
-  }
-  to {
-      transform: rotateY(360deg); /* End at 360 degrees */
-  }
-}
-/* home exit */
+
 /* About */
 .about{
   background-color: black;
   opacity: 0.9;
 }
-.zodiac:hover{
-      color: chocolate !important;
-}
+
 /* Rates */
 .contact{
   background-image: url('/public/Contact bg 2.avif');
@@ -84,7 +66,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 0; /* Reset margin for smaller screens */
+  margin-left: 0;
+  margin-top: 199; /* Reset margin for smaller screens */
 }
 
 .Home {
@@ -92,7 +75,7 @@
   width: 100%; /* Full width */
   max-width: 1200px; /* Maximum width for larger screens */
   opacity: 0.4;
-  margin-top: 150px;
+  margin-top: 150px !important;
   margin-left: 40px; /* Reduced margin for smaller screens */
 }
 
@@ -136,23 +119,23 @@
     margin-top: 500px;
     margin-left: 500px;
   }
-  .video-container{
-    /* margin-top: 400px; */
+  /* .video-container{
+    margin-top: 400px;
 
-  }
+  } */
 }
 
 @media (max-width: 480px) {
   .text-title {
       font-size: 20px;
-      margin-top: 100px; 
+      margin-top: -190px; 
       margin-left: 20px; /* Smaller font size for mobile */
   }
   .Home{
     height:300px;
     margin-left: -30px;
-    margin-top: 50px !important;
-    width: 330px;
+    margin-top: 230px !important;
+    width: 390px;
   }
   .container{
     margin-top: 800px;
@@ -164,7 +147,7 @@
   
   .text-subtitle {
       font-size: 20px;
-      margin-top: 10px;
+      margin-top: -20px;
       margin-left: 20px;  /* Smaller font size for mobile */
   }
 

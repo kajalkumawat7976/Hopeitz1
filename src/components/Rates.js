@@ -3,7 +3,7 @@ import React from 'react';
 const Rates = () => {
   return (
     <div className='container-fluid'>
-      <div className='row about' style={{ marginTop: '500px' }}>
+      <div className='row about' style={{ marginTop: '' }}>
         <div className='col-12 col-md-3 d-flex justify-content-center mb-4'>
           <div className="card" style={{ height: '100px', width: '280px', backgroundColor: 'transparent' }}>
             <div className="card-body text-center mt-3">

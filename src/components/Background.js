@@ -3,7 +3,7 @@ import React from "react";
 
 const Background = () => {
   return (
-    <div className="container-fluid background">
+    <div className="container-fluid background"id="BG-section">
       <div className="row">
         <div className="col-md-12" style={{marginTop:'-200px'}}>
           <div className="video-container ">

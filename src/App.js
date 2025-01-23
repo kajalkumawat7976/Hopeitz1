@@ -4,7 +4,7 @@ import './index.css'
 import Background from './components/Background'
 import About from './components/About'
 import Apps from './components/Apps'
-import Slider from './components/Slider'
+
 import Rates from './components/Rates'
 import Clients from './components/Clients'
 import Slide2 from './components/Slide2'
@@ -47,7 +47,7 @@ const App = () => {
             <About/>
             <Zoadic/>
             <Apps/>
-            <Slider/>
+            
             <Rates/>
             <Clients/>
             <Slide2/>

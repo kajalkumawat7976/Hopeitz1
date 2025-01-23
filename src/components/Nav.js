@@ -46,6 +46,7 @@ const Nav = () => {
                   aria-current="page"
                   to="/"
                   style={{ color: "white", fontSize: "20px", marginLeft:'700px' }}
+                  onClick={() => document.getElementById('BG-section').scrollIntoView({ behavior: 'smooth' })}
                 >
                   HOME
                 </Link>
@@ -54,7 +55,7 @@ const Nav = () => {
                 <Link
                   className="nav-link"
                   to="/About"
-                  style={{ color: "white", fontSize: "20px" }}
+                  style={{ color: "white", fontSize: "20px" }}onClick={() => document.getElementById('about-section').scrollIntoView({ behavior: 'smooth' })}
                 >
                   ABOUT
                 </Link>
@@ -64,6 +65,7 @@ const Nav = () => {
                   className="nav-link"
                   to="/Product"
                   style={{ color: "white", fontSize: "20px" }}
+                  onClick={() => document.getElementById('Product-section').scrollIntoView({ behavior: 'smooth' })}
                 >
                   PRODUCT
                 </Link>
@@ -82,6 +84,7 @@ const Nav = () => {
                   className="nav-link"
                   to="/contact"
                   style={{ color: "white", fontSize: "20px" }}
+                  onClick={() => document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' })}
                 >
                   CONTACT
                 </Link>

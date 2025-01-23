@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid'id='contact-section'>
       <div className='row about'>
         {/* Left Column with Image */}
         <div className='col-12 col-md-6 mt-5 mb-5 contact d-flex justify-content-center'>

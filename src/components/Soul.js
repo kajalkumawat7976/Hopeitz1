@@ -2,222 +2,230 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Soul = () => {
   return (
-    <div className='container-fluid'>
-    <div className='row about'>
-      <div className='col-md-12'>
-        <h1 style={{color:"#EDE6D6", textAlign:'center', marginTop:'100px', marginBottom:'100px', textShadow:'2px 2px blue'}}>Soul Companion App</h1></div>
-      <div className='col-md-6' style={{marginTop:'-10px'}}>
-          <h1 style={{color:'#EDE6D6', marginTop:'100px', marginLeft:'200px'}}>Soul Companion - True Soulmate App-</h1>
-          <h4 style={{color:'#EDE6D6', marginLeft:'200px'}}>"Find your true soulmate and embark on a journey of love and connection with Soul Companion—where every heart's desire meets its perfect match!"</h4>
-          <h5 style={{color:'#EDE6D6', marginLeft:'200px', fontWeight:'bold', marginTop:'30px'}}>"SOUl"- "The soul is the eternal essence of who we are, a radiant spark that connects us to the universe and transcends the boundaries of time and space."</h5>
-          <ul style={{color:'#EDE6D6', marginLeft:'200px',fontSize:'18px'}}>
-  <li>Your Choice Your Reflection✔</li>
-  <li>Uncover Zodiac Sign🪐</li>
- 
-</ul>
-<ul style={{color:'#EDE6D6', marginLeft:'500px', marginTop:'-70px',fontSize:'18px'}}>
-  <li>Determine Characteristics👆</li>
-  <li>Reveal WhAT Your Heart Speaks💖</li>
- 
-</ul>
-<Link to="https://play.google.com/store/apps/details?id=free.soulmate.psychic.reading.emoji.quiz.zodiac.sign.soul.companion.hopeitz&hl=en_IN" class="btn " style={{ marginLeft:"200px"}}><img src='/play_store_product.webp' style={{height:'50px'}} alt=''></img></Link> 
-<Link to="https://apps.apple.com/us/app/true-soulmate-finder-for-you/id1591621860" class="btn " ><img src='/app_store_product.webp' style={{height:'50px'}} alt=''></img></Link>  
-          
-        
-      </div>
-      <div className='col-md-6'>
-          <img src='' style={{height:'500px', marginLeft:'80px'}} alt=''></img>
-      </div>
-      <div className='col-md-6'>
-      </div>
-      <div className='col-md-6 mt-5'>
-          <h1 style={{color:'#EDE6D6', marginTop:'100px', marginLeft:'-100px'}}> About </h1>
-          <h1  style={{color:'#EDE6D6', marginLeft:'-100px'}}> Soul Companion App</h1>
-          <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}> Discover the magic of connection with the Soul Companion app, your ultimate guide to finding true love and meaningful relationships. Dive into a world where compatibility meets destiny, and let our unique algorithms match you with your perfect soulmate. With personalized insights and a supportive community, every interaction brings you closer to the love you’ve been searching for. Embrace the journey of the heart and let Soul Companion illuminate your path to lasting happiness!</p>
-    
-          <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}><i class="bi bi-megaphone" style={{color:'orange'}}></i> Experience tailored matchmaking that goes beyond surface-level compatibility, connecting you with souls that resonate with your true essence. </p>
-          <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}><i class="bi bi-megaphone" style={{color:'orange'}}></i> Enjoy a user-friendly design that makes navigating your journey to love seamless and enjoyable. </p>
-          <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}><i class="bi bi-megaphone" style={{color:'orange'}}></i>Gain valuable insights into your compatibility with potential matches, helping you understand the dynamics of your relationships.
-
-</p>
-          <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}><i class="bi bi-megaphone" style={{color:'orange'}}></i> Gain valuable insights into your compatibility with potential matches, helping you understand the dynamics of your relationships.
-
-</p>
-     
-         
-      </div>
-      <div className='col-md-6'>
-          <h1 style={{color:'#EDE6D6', marginTop:'100px', marginLeft:'200px'}}>Amazing Key Features✨</h1>
-          <p style={{color:'#EDE6D6', marginLeft:'200px', marginTop:'30px', fontSize:'18px'}}> "Unlock the power of love with Soul Companion's amazing key features—personalized matching, insightful compatibility scores, and a supportive community, all designed to guide you to your true soulmate!" </p>
-          <div className='col-md-3'  style={{color:'#EDE6D6', marginLeft:'200px'}}><h2>💖Reavel What Your Heart Speaks</h2>
-          <p style={{color:'#EDE6D6'}}>"Listen to the whispers of your heart and discover the love you truly desire with our intuitive insights!"</p>
-          </div>
-          <div className='col-md-3' style={{color:'#EDE6D6', marginLeft:'500px', marginTop:'-220px'}}>
-              <h2>🪐Uncover Zodiac Sign</h2>
-          <p style={{color:'#EDE6D6'}}>"Dive into the cosmic connection—uncover your zodiac sign and explore how the stars align for your perfect match!" </p>
-          </div>
-
-          <div className='col-md-3 mt-5'  style={{color:'#EDE6D6', marginLeft:'200px'}}><h2>✨Exciting Quiz For Finding Soulmate</h2>
-          <p style={{color:'#EDE6D6'}}>"Take our fun and engaging quiz to unlock the secrets of your soulmate compatibility and embark on your journey to love!"
-
-</p>
-          </div>
-          <div className='col-md-3' style={{color:'#EDE6D6', marginLeft:'500px', marginTop:'-270px'}}>
-              <h2>✔Your Choice Your Reflection</h2>
-          <p style={{color:'#EDE6D6'}}>"Every choice reflects your true self—explore meaningful connections that resonate with your heart's deepest desires!"</p>
-          <Link to="https://play.google.com/store/apps/details?id=free.soulmate.psychic.reading.emoji.quiz.zodiac.sign.soul.companion.hopeitz&hl=en_IN" class="btn " style={{ marginLeft:"-300px"}}><img src='/play_store_product.webp' style={{height:'50px'}} alt=''></img></Link> 
-<Link to="https://apps.apple.com/us/app/true-soulmate-finder-for-you/id1591621860" class="btn " ><img src='/app_store_product.webp' style={{height:'50px'}} alt=''></img></Link> 
-          </div>
-      </div>
-      <div className='col-md-6'></div>
-      <div className='col-md-6'></div>
-      <div className='col-md-6'>
-          <h1 style={{color:'#EDE6D6', marginTop:'100px', marginLeft:'-100px'}}>How Soul Companion App Works?</h1>
-          <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}>Follow these easy steps!</p>
-        <p  style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}>1. <i class="bi bi-download" style={{fontSize:'40px', color:'orange'}}></i>  Download Soul Companion App .</p>
-        <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'17px'}}>Go to Google Play Store/ App Store on your device  and search for Soul Companion App  by Hopeitz Software , now install it on your device.</p>
-        <p  style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}>2. <i class="bi bi-download" style={{fontSize:'40px', color:'orange'}}></i>  Select What you want to see.</p>
-        <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'17px'}}>Open Soul Companion App  on your Device and There are many options, select one. (Options Like:-Reavel What Your Heart Speaks,Uncover Zodiac Sign,Exciting Quiz For Finding Soulmate,Your Choice Your Reflectionon etc.)</p>
-          <p  style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'20px'}}>3. <i class="bi bi-download" style={{fontSize:'40px', color:'orange'}}></i>  Select One Category</p>
-          <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'17px'}}>After selecting you will see  your zoadiac sign, And play Exciting Quiz.  etc.</p>
-      </div>
-         <div className='col-md-12'>
-          <h1  style={{color:'#EDE6D6',textAlign:'center'}}>App Screenshots</h1>
-          <p  style={{color:'#EDE6D6',textAlign:'center'}}>Take a quick look at the screenshots of Soul Companion App to understand its interface and features in a better way.</p>
+     <div className='container-fluid'id='Soul-section'>
+         <div className='row about'>
+           <div className='col-12'>
+             <h1 style={{ color: "#EDE6D6", textAlign: 'center', marginTop: '100px', marginBottom: '100px', textShadow: '2px 2px blue' }}>
+               Angel Numbers App - Numerology
+             </h1>
+           </div>
+           <div className='col-md-6 col-12' style={{ marginTop: '-10px' }}>
+             <h1 style={{ color: '#EDE6D6', marginTop: '100px', marginLeft: '20px' }}>Angel Numbers App - Numerology-</h1>
+             <h4 style={{ color: '#EDE6D6', marginLeft: '20px' }}>Secret Behind Angel Numbers</h4>
+             <h5 style={{ color: '#EDE6D6', marginLeft: '20px', fontWeight: 'bold', marginTop: '30px' }}>
+               "ANGEL NUMBER"- Embrace the divine whispers of the universe—your Angel Numbers are guiding you towards your true path! 🌟"
+             </h5>
+             <ul style={{ color: '#EDE6D6', marginLeft: '20px', fontSize: '18px' }}>
+               <li>Free Angel Number App✔</li>
+               <li>Your Angel Number Reading👰</li>
+             </ul>
+             <ul style={{ color: '#EDE6D6', marginLeft: '20px', fontSize: '18px' }}>
+               <li>Guardian Angel Number👩‍👧‍👦</li>
+               <li>You And Your Angel Number💑</li>
+             </ul>
+             <div className="text-center">
+               <Link to="https://play.google.com/store/apps/details?id=free.daily.angel.numbers.app.meaning.secret.number.message.spiritual.guide.signs.numerology&hl=en_IN" className="btn" style={{ margin: "20px" }}>
+                 <img src='/play_store_product.webp' style={{ height: '50px' }} alt='' />
+               </Link>
+               <Link to="#" className="btn">
+                 <img src='/app_store_product.webp' style={{ height: '50px' }} alt='' />
+               </Link>
+             </div>
+           </div>
+           <div className='col-md-6 col-12'>
+             <img src='' style={{ height: '500px', marginLeft: '80px' }} alt='' />
+           </div>
+           <div className='col-12 mt-5'>
+             <h1 style={{ color: '#EDE6D6', textAlign: 'center' }}>About</h1>
+             <h1 style={{ color: '#EDE6D6', textAlign: 'center' }}>Angel Numbers App</h1>
+             <p style={{ color: '#EDE6D6', fontSize: '20px', textAlign: 'center' }}>
+               🌟 Our Angel Numbers App is more than just a tool; it’s your gateway to spiritual enlightenment. With easy-to-use features and comprehensive explanations, you’ll learn how to recognize and understand the messages from your guardian angels. Whether you’re seeking guidance in love, career, or personal growth, let the wisdom of Angel Numbers illuminate your path and empower your decisions.
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '20px', textAlign: 'center' }}>
+               "Let the angels speak to you! With our Angel Numbers App, decode the signs and align with your higher purpose. 🌟💫"
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '20px', textAlign: 'center' }}>
+               <i className="bi bi-megaphone" style={{ color: 'orange' }}></i> "Unlock the universe's secrets with our Angel Numbers App—your personal guide to divine messages and spiritual insights! ✨📱"
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '20px', textAlign: 'center' }}>
+               <i className="bi bi-megaphone" style={{ color: 'orange' }}></i> "Transform your life one number at a time! Download our Angel Numbers App and start your journey to spiritual awakening today! 🚀✨"
+    </p>
+           </div>
+           <div className='col-md-6 col-12'>
+             <h1 style={{ color: '#EDE6D6', marginTop: '100px', marginLeft: '20px' }}>Amazing Key Features✨</h1>
+             <p style={{ color: '#EDE6D6', marginLeft: '20px', marginTop: '30px', fontSize: '18px' }}>
+               "Unlock the universe's wisdom with our Angel Numbers App—featuring personalized insights, daily notifications, and a vibrant community to guide your spiritual journey! ✨🔮"
+             </p>
+             <div className='col-12 col-md-6' style={{ color: '#EDE6D6', marginLeft: '20px' }}>
+               <h2>✔Free Angel Number App</h2>
+               <p style={{ color: '#EDE6D6' }}>
+                 "Dive into the mystical world of numbers with our Free Angel Number App—your gateway to divine guidance at no cost! ✨📱"
+               </p>
+             </div>
+             <div className='col-12 col-md-6' style={{ color: '#EDE6D6', marginLeft: '20px' }}>
+               <h2>Your Angel Number Reading👰</h2>
+               <p style={{ color: '#EDE6D6' }}>
+                 "Discover the unique connection between you and your Angel Number, revealing the powerful messages meant just for you! 🌟🔢"
+               </p>
+             </div>
+             <div className='col-12 col-md-6' style={{ color: '#EDE6D6', marginLeft: '20px' }}>
+               <h2>👩‍👧‍👦Guardian Angel Number</h2>
+               <p style={{ color: '#EDE6D6' }}>
+                 "Uncover your Guardian Angel Number and feel the protective energy guiding you through life’s journey! 🕊️💖"
+               </p>
+             </div>
+             <div className='col-12 col-md-6' style={{ color: '#EDE6D6', marginLeft: '20px' }}>
+               <h2>💑You And Your Angel Number</h2>
+               <p style={{ color: '#EDE6D6' }}>
+                 "Receive personalized Angel Number readings that illuminate your path and empower your spiritual growth! 🔮✨"
+               </p>
+             </div>
+           </div>
+           <div className='col-12'>
+             <h1 style={{ color: '#EDE6D6', marginTop: '100px', textAlign: 'center' }}>How Angel Numbers App - Numerology Works?</h1>
+             <p style={{ color: '#EDE6D6', fontSize: '20px', textAlign: 'center' }}>Follow these easy steps!</p>
+             <p style={{ color: '#EDE6D6', fontSize: '20px', textAlign: 'center' }}>
+               1. <i className="bi bi-download" style={{ fontSize: '40px', color: 'orange' }}></i> Download Ramal Astrology App.
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '17px', textAlign: 'center' }}>
+               Go to Google Play Store/ App Store on your device and search for Angel Numbers App - Numerology App by Hopeitz Software, now install it on your device.
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '20px', textAlign: 'center' }}>
+               2. <i className="bi bi-download" style={{ fontSize: '40px', color: 'orange' }}></i> Select What you want to see.
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '17px', textAlign: 'center' }}>
+               Open on your Device and There are many options, select one. (Options Like: Free Angel Number App, You And Your Angel Number, Guardian Angel Number, Your Angel Number Reading etc.)
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '20px', textAlign: 'center' }}>
+               3. <i className="bi bi-download" style={{ fontSize: '40px', color: 'orange' }}></i> Select One Category
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '17px', textAlign: 'center' }}>
+               After selecting you will see Universal message etc.
+             </p>
+           </div>
+           <div className='col-12'>
+             <h1 style={{ color: '#EDE6D6', textAlign: 'center' }}>App Screenshots</h1>
+             <p style={{ color: '#EDE6D6', textAlign: 'center' }}>Take a quick look at the screenshots of Angel Number App to understand its interface and features in a better way.</p>
+           </div>
+           <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+             <div className="carousel-inner">
+               <div className="carousel-item active">
+                 <div className='row carousel'>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel1.webp' alt='' style={{ height: '420px', width: "100%" }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel2.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel3.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel4.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div className="carousel-item">
+                 <div className='row carousel'>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel5.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel6.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel7.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel8.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div className="carousel-item">
+                 <div className='row carousel'>
+                   <div className='col-12 col -md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel9.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel4.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel7.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                   <div className='col-12 col-md-3'>
+                     <div className="card mt-5" style={{ height: '420px', width: '280px', margin: 'auto', backgroundColor: 'white', marginBottom: '30px' }}>
+                       <div className="card-body">
+                         <img src='/Angel2.webp' alt='' style={{ height: '420px', width: '100%' }} />
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span className="visually-hidden">Previous</span>
+             </button>
+             <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+               <span className="carousel-control-next-icon" aria-hidden="true"></span>
+               <span className="visually-hidden">Next</span>
+             </button>
+           </div>
+           <div className='col-12'>
+             <h1 style={{ color: '#EDE6D6', marginTop: '80px', textAlign: 'center' }}>Angel Numbers App - Numerology ✨</h1>
+             <p style={{ color: '#EDE6D6', fontSize: '19px', textAlign: 'center' }}>
+               ✨ Embrace the Divine Guidance of the Universe! ✨ With our Angel Numbers App, you hold the key to unlocking the mystical messages that surround you every day. Discover your unique Angel Numbers, connect with your Guardian Angels, and receive personalized readings that illuminate your spiritual path. Whether you’re seeking clarity in love, career, or personal growth, our app is your trusted companion on this transformative journey.
+             </p>
+             <p style={{ color: '#EDE6D6', fontSize: '18px', textAlign: 'center' }}>
+               Download now and let the angels guide you toward a brighter, more fulfilling life! 🌟🔮
+             </p>
+           </div>
          </div>
-         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-inner">
-  <div class="carousel-item active">
-    {/* <img src="..." class="d-block w-100" alt="..."> */}
-    <div className='row carousal'>
-    <div className='col-md-3'>         
-           <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'210px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-  <img src='/Ramal1.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:"290px"}}></img>
-</div>
-</div>
-</div>
-      <div className='col-md-3'>      
-        <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'100px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul1.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
-</div>
-</div>
-</div>
-      <div className='col-md-3'>         
-   <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'-10px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul2.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
-</div>
-</div>
-</div>
-      <div className='col-md-3'>       
- <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'-120px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul3.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
- 
-</div>
-</div>
-</div>
-    </div>
-  </div>
-  <div class="carousel-item">
-    {/* <img src="..." class="d-block w-100" alt="..."></img> */}
-    <div className='row carousel'>
-    <div className='col-md-3'>         
-           <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'210px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-  <img src='/Soul4.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px',width:'290px'}}></img>
- 
-</div>
-</div>
-</div>
-      <div className='col-md-3'>      
-        <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'100px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul5.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
- 
- 
-</div>
-</div>
-
-</div>
-      <div className='col-md-3'>         
-   <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'-10px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul6.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
-</div>
-</div>
-</div>
-      <div className='col-md-3'>       
- <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'-120px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul7.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
- 
- 
-</div>
-</div>
-</div>
-    </div>
-  </div>
-  <div class="carousel-item">
-    {/* <img src="..." class="d-block w-100" alt="..."></img> */}
-    <div className='row carousal'>
-    <div className='col-md-3'>         
-           <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'210px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-  <img src='/Soul8.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
- 
-</div>
-</div>
-</div>
-      <div className='col-md-3'>      
-        <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'100px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul2.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
-
- 
-</div>
-</div>
-</div>
-      <div className='col-md-3'>         
-   <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'-10px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul6.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
- 
-</div>
-</div>
-</div>
-      <div className='col-md-3'>       
- <div class="card mt-5" style={{height:'420px', width:'280px', marginLeft:'-120px', backgroundColor:'white', marginBottom:'30px'}}>
-<div class="card-body">
-<img src='/Soul1.webp'alt=''style={{height:'420px', marginTop:'-17px', marginLeft:'-20px', width:'290px'}}></img>
- 
- 
-</div>
-</div>
-</div>
-    </div>
-  </div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="visually-hidden">Next</span>
-</button>
-</div>
-<div className='col-md-6'></div>
-<div className='col-md-6'>
-  <h1 style={{color:'#EDE6D6', marginLeft:'-100px', marginTop:'80px'}}>Soul companion App✨</h1>
-  <p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'19px'}}>Embark on a transformative journey of love and connection with the Soul Companion app, where your heart's desires meet the perfect match. Discover personalized insights that reveal what your heart truly speaks, explore the cosmic connections of your zodiac sign, and engage in exciting quizzes designed to uncover your soulmate. With a supportive community and intuitive features, every interaction brings you closer to meaningful relationships that reflect your true self. Download Soul Companion today and let the adventure of love begin</p>
-<p style={{color:'#EDE6D6', marginLeft:'-100px', fontSize:'18px'}}>—your soulmate is waiting!
-</p>
-</div>
-    </div>
-  </div>
+       </div>
   )
 }
 
